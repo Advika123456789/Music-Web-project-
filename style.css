@@ -1,0 +1,68 @@
+body {
+background-image: url("BACKGROUNDWEEE.jpeg");
+background-size: cover;
+}
+
+.heading  {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    font-weight: 800;
+    font-family: monospace;
+}
+
+.note {
+    font-size: 15px;
+    color: rgb(10, 10, 10);
+}
+
+.div_speed {
+    float: left;
+}
+
+.div_speed_img { 
+
+    width: 200px;
+    border-radius: 100px;
+}
+
+#speed {
+    font-size: 23px;
+    margin:15px;
+    background-color: rgb(17, 46, 98);
+    color: rgb(255, 255, 255);
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+
+.div_volume {
+    float: right;
+}
+
+.div_volume_img { 
+
+    width: 200px;
+    border-radius: 100px;
+}
+
+#volume {
+    font-size: 23px;
+    margin:15px;
+    background-color: rgb(17, 46, 98);
+    color: rgb(255, 255, 255);
+    font-family: fantasy;
+    font-size: 30px;
+    border-color:rgb(17, 46, 98) ;
+}
+
+.play_button  {
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+}
